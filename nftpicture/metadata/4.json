@@ -5,27 +5,31 @@
     "attributes": [
         {
             "trait_type": "Face",
-            "value": "Black"
+            "value": "White"
         },
         {
             "trait_type": "Ears",
-            "value": "Left Earring"
+            "value": "No Earring"
         },
         {
             "trait_type": "Eyes",
-            "value": "Focused"
+            "value": "Regular"
         },
         {
             "trait_type": "Hair",
-            "value": "Red Mohawk"
+            "value": "Emo Hair"
         },
         {
             "trait_type": "Mouth",
-            "value": "Teeth Smile"
+            "value": "Smile"
         },
         {
             "trait_type": "Nose",
-            "value": "Nose"
+            "value": "Nose Ring"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": 0.00010500000000000002
         }
     ]
 }

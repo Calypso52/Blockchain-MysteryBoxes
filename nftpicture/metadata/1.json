@@ -5,7 +5,7 @@
     "attributes": [
         {
             "trait_type": "Face",
-            "value": "White"
+            "value": "Black"
         },
         {
             "trait_type": "Ears",
@@ -13,7 +13,7 @@
         },
         {
             "trait_type": "Eyes",
-            "value": "Regular"
+            "value": "Small"
         },
         {
             "trait_type": "Hair",
@@ -26,6 +26,10 @@
         {
             "trait_type": "Nose",
             "value": "Nose"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": 0.0007920000000000002
         }
     ]
 }

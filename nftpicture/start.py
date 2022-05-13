@@ -1,3 +1,4 @@
+from operator import indexOf
 from PIL import Image
 from IPython.display import display
 import random
@@ -88,12 +89,20 @@ def create_new_image():
     new_image = {} #
 
     # For each trait category, select a random trait based on the weightings 
+    rarity = 1
     new_image ["Face"] = random.choices(face, face_weights)[0]
+    rarity *= face_weights[face.index(new_image ["Face"])]/100
     new_image ["Ears"] = random.choices(ears, ears_weights)[0]
+    rarity *= ears_weights[ears.index(new_image ["Ears"])]/100
     new_image ["Eyes"] = random.choices(eyes, eyes_weights)[0]
+    rarity *= eyes_weights[eyes.index(new_image ["Eyes"])]/100
     new_image ["Hair"] = random.choices(hair, hair_weights)[0]
+    rarity *= hair_weights[hair.index(new_image ["Hair"])]/100
     new_image ["Mouth"] = random.choices(mouth, mouth_weights)[0]
+    rarity *= mouth_weights[mouth.index(new_image ["Mouth"])]/100
     new_image ["Nose"] = random.choices(nose, nose_weights)[0]
+    rarity *= nose_weights[nose.index(new_image ["Nose"])]/100
+    new_image ["Rarity"] = rarity
     
     if new_image in all_images:
         return create_new_image()
@@ -217,7 +226,9 @@ for i in data:
         "name": PROJECT_NAME + ' ' + str(token_id),
         "attributes": []
     }
+    rarity = 1.0
     token["attributes"].append(getAttribute("Face", i["Face"]))
+
     token["attributes"].append(getAttribute("Ears", i["Ears"]))
     token["attributes"].append(getAttribute("Eyes", i["Eyes"]))
     token["attributes"].append(getAttribute("Hair", i["Hair"]))
@@ -257,6 +268,7 @@ for i in data:
     token["attributes"].append(getAttribute("Hair", i["Hair"]))
     token["attributes"].append(getAttribute("Mouth", i["Mouth"]))
     token["attributes"].append(getAttribute("Nose", i["Nose"]))
+    token["attributes"].append(getAttribute("Rarity", i["Rarity"]))
 
     with open('./metadata/' + str(token_id) + ".json", 'w') as outfile:
         json.dump(token, outfile, indent=4)

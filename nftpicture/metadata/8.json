@@ -5,7 +5,7 @@
     "attributes": [
         {
             "trait_type": "Face",
-            "value": "Black"
+            "value": "White"
         },
         {
             "trait_type": "Ears",
@@ -13,19 +13,23 @@
         },
         {
             "trait_type": "Eyes",
-            "value": "Small"
+            "value": "Regular"
         },
         {
             "trait_type": "Hair",
-            "value": "Up Hair"
+            "value": "Bubble Hair"
         },
         {
             "trait_type": "Mouth",
-            "value": "Big Smile"
+            "value": "Purple Lipstick"
         },
         {
             "trait_type": "Nose",
-            "value": "Nose"
+            "value": "Nose Ring"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": 5.250000000000001e-05
         }
     ]
 }
