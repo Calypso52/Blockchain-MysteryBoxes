@@ -5,27 +5,31 @@
     "attributes": [
         {
             "trait_type": "Face",
-            "value": "White"
+            "value": "Black"
         },
         {
             "trait_type": "Ears",
-            "value": "Right Earring"
+            "value": "No Earring"
         },
         {
             "trait_type": "Eyes",
-            "value": "Regular"
+            "value": "Rayban"
         },
         {
             "trait_type": "Hair",
-            "value": "Down Hair"
+            "value": "Up Hair"
         },
         {
             "trait_type": "Mouth",
-            "value": "Black Lipstick"
+            "value": "Teeth Smile"
         },
         {
             "trait_type": "Nose",
             "value": "Nose"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": 6.750000000000001e-05
         }
     ]
 }

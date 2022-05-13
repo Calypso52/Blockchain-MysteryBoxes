@@ -5,11 +5,11 @@
     "attributes": [
         {
             "trait_type": "Face",
-            "value": "Black"
+            "value": "White"
         },
         {
             "trait_type": "Ears",
-            "value": "Left Earring"
+            "value": "Right Earring"
         },
         {
             "trait_type": "Eyes",
@@ -17,15 +17,19 @@
         },
         {
             "trait_type": "Hair",
-            "value": "Pony Tails"
+            "value": "Red Mohawk"
         },
         {
             "trait_type": "Mouth",
-            "value": "Teeth Smile"
+            "value": "Smile"
         },
         {
             "trait_type": "Nose",
-            "value": "Nose Ring"
+            "value": "Nose"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": 0.0016632
         }
     ]
 }

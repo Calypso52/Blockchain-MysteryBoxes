@@ -17,15 +17,19 @@
         },
         {
             "trait_type": "Hair",
-            "value": "Bald"
+            "value": "Up Hair"
         },
         {
             "trait_type": "Mouth",
-            "value": "Teeth Smile"
+            "value": "Big Smile"
         },
         {
             "trait_type": "Nose",
             "value": "Nose"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": 0.005544
         }
     ]
 }

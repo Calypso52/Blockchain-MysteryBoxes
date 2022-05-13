@@ -5,27 +5,31 @@
     "attributes": [
         {
             "trait_type": "Face",
-            "value": "White"
+            "value": "Black"
         },
         {
             "trait_type": "Ears",
-            "value": "Left Earring"
+            "value": "No Earring"
         },
         {
             "trait_type": "Eyes",
-            "value": "Focused"
+            "value": "Regular"
         },
         {
             "trait_type": "Hair",
-            "value": "Emo Hair"
+            "value": "Bubble Hair"
         },
         {
             "trait_type": "Mouth",
-            "value": "Smile"
+            "value": "Big Smile"
         },
         {
             "trait_type": "Nose",
             "value": "Nose"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": 0.0031499999999999996
         }
     ]
 }
