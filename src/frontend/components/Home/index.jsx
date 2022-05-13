@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { ethers } from "ethers"
 import { Row, Col, Card, Button } from 'react-bootstrap'
+import boxCover from '../asserts/hezi.png'
 
 const Home = ({ marketplace, nft }) => {
     const [loading, setLoading] = useState(true);
@@ -56,7 +57,7 @@ const Home = ({ marketplace, nft }) => {
                         {items.map((item, idx) => (
                             <Col key={idx} className="overflow-hidden">
                                 <Card>
-                                    <Card.Img variant="top" src={item.image} />
+                                    <Card.Img variant="top" src={ boxCover } />
                                     <Card.Body color="secondary">
                                         <Card.Title>{item.name}</Card.Title>
                                         <Card.Text>
@@ -67,7 +68,8 @@ const Home = ({ marketplace, nft }) => {
                                         <div className='d-grid'>
                                             <Button onClick={() => buyMarketItem(item)} variant="primary" size="lg">
                                                 {/* 把钱从Wei换成ETH */}
-                                                Buy for {ethers.utils.formatEther(item.totalPrice)} ETH
+                                                {/* Buy for {ethers.utils.formatEther(item.totalPrice)} ETH */}
+                                                Buy for 0.2 ETH
                                             </Button>
                                         </div>
                                     </Card.Footer>
